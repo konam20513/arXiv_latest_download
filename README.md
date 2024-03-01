@@ -1,4 +1,4 @@
-# Technical Assessment
+# Automated PDF Download from arXiv with Selenium
 
 This project demonstrates the use of Selenium IDE and Selenium Side Runner for automating the download of the latest PDF from the arXiv website, focusing on the computer science section. The task involves identifying a source of regularly updated PDFs, automating the download of the newest PDF, and verifying the automation script's effectiveness through the command line.
 
