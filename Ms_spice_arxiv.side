@@ -1,0 +1,57 @@
+{
+  "id": "a76a79f1-e873-4527-b99f-5bd3eb28639b",
+  "version": "2.0",
+  "name": "Ms_spice_arxiv",
+  "url": "https://arxiv.org/",
+  "tests": [{
+    "id": "dcf6f9e6-cd2c-4137-98cc-2e073d80c201",
+    "name": "test1",
+    "commands": [{
+      "id": "012a30fd-8da0-4a66-aab9-fba6cea21476",
+      "comment": "",
+      "command": "open",
+      "target": "https://arxiv.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "302f1ead-f6b4-4546-9bd9-550e06c0f855",
+      "comment": "",
+      "command": "click",
+      "target": "id=new-cs",
+      "targets": [
+        ["id=new-cs", "id"],
+        ["css=#new-cs", "css:finder"],
+        ["xpath=(//a[contains(text(),'new')])[16]", "xpath:link"],
+        ["xpath=//a[@id='new-cs']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/ul[3]/li/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/list/cs/new')]", "xpath:href"],
+        ["xpath=//ul[3]/li/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d2e8d0d-6acf-42bd-a24d-9c5e64e33162",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[5]/div/dl[1]/dt[1]/span/a[4]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "025e035f-ffb5-4087-a643-1fe2c53a8a12",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div/main/div/dl/dd[1]/form/input",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b0f074e4-738d-4a2c-bbc5-ca39aa4b992c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://arxiv.org/"],
+  "plugins": []
+}
