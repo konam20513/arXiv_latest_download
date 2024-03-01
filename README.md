@@ -25,3 +25,6 @@ This project demonstrates the use of Selenium IDE and Selenium Side Runner for a
 
 ```bash
 npm install -g selenium-side-runner
+
+### Running the automation script
+selenium-side-runner -c "browserName=firefox" Ms_spice_arxiv.side
